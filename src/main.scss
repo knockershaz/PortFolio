@@ -131,9 +131,10 @@ h2{
 }
 
 .about-me{
-    // width: 50%;
+    width: 50%;
+    margin: auto;
     text-align: center;
-    padding: 0px 200px;
+    // padding: 0px 200px;
     padding-bottom: 25px;
     // padding-bottom: 45px;
     img{
@@ -153,7 +154,8 @@ h2{
 }
 .form-submit {
     width: 50%;
-    margin: 0px 390px;
+    // margin: 0px 390px;
+    margin: auto;
 }
 
 .form-submit form {
