@@ -74,7 +74,11 @@ footer ul li {
 .social {
   fill: white;
 }
-
+.myCar{
+  height:400px !important;
+  width: 800px !important;
+  color: white !important;
+}
 .wave {
   fill: rgb(0, 0, 0);
   width: 100vw;
@@ -87,6 +91,12 @@ footer ul li {
 .options {
   display: flex;
   padding-bottom: 60px;
+  padding-top: 5px;
+}
+.option{
+  background-color: rgb(255, 130, 150);
+  border-radius: 14px;
+  margin-left: 5px;
 }
 .options h3 {
   margin: 20px 10px;
@@ -114,7 +124,7 @@ a {
 }
 
 a:hover {
-  color: rgb(253, 15, 154);
+  color: rgb(253, 15, 154) !important;
 }
 
 .sub-title {
