@@ -4,6 +4,28 @@
   padding: 0%;
   margin: 0%;
 }
+/* Image and name */
+.container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* hover image and see magic */
+@media only screen and (min-width: 600px){
+  .move{
+    transition: all 1s;
+  }
+  .move:hover{
+    translate: 200px 0px;
+  }
+}
 
 body {
   background-color: rgb(20, 20, 20);
@@ -23,7 +45,10 @@ header ul li {
   margin: 5px 10px;
   list-style: none;
 }
-
+.myimg{
+  width: 250px;
+  border-radius: 35%;
+}
 .main_sec {
   display: flex;
   justify-content: center;
@@ -58,10 +83,10 @@ footer ul li {
 
 @media only screen and (max-width: 600px) {
   .work_sec{
-    margin-bottom: 150px !important;
+    margin-bottom: 100px !important;
   }
   .sub-title {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   }
   .socials {
     display: none;
@@ -87,8 +112,8 @@ footer ul li {
 }
 @media only screen and (max-width: 600px){
   .myCar{
-    height: 70% !important;
-    width: 50% !important;
+    height: 80% !important;
+    width: 70% !important;
   }
 }
 .wave {
